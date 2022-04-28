@@ -1,5 +1,11 @@
 [
   {
+    "name":"2.5.0",
+    "note":"新增 備份 功能",
+    "Pre-Release":false,
+    "reclaimed":false
+  },
+  {
     "name":"2.0.0",
     "note":"棄用 async 方法\n統一回調參數格式\n禁用 DHL",
     "Pre-Release":false,
