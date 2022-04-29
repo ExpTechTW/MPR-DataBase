@@ -35,6 +35,7 @@ async function onLoad(client) {
                     fs.unlinkSync(Path + "/Data/DataBase-BackUp/" + dir[index])
                 }
             }
+            let file = JSON.parse(fs.readFileSync(Path + '/Data/DataBase.json').toString())
             fs.writeFileSync(Path + "/Data/DataBase-BackUp/" + now.getTime() + ".json", JSON.stringify(file, null, "\t"), 'utf8')
         }, 600000)
     }
