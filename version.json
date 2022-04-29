@@ -1,5 +1,11 @@
 [
   {
+    "name":"3.0.0",
+    "note":"修正 傳址 問題",
+    "Pre-Release":false,
+    "reclaimed":false
+  },
+  {
     "name":"2.5.0",
     "note":"新增 備份 功能",
     "Pre-Release":false,
